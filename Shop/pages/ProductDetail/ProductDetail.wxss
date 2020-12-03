@@ -1,0 +1,12 @@
+/* pages/ProductDetail/ProductDetail.wxss */
+.bg{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://img.woyaogexing.com/gexing/fzltupian/20130924/e64e77095610169224d0c0c9f693e414.jpg');
+}
+.font{
+  font-weight: bold; 
+}

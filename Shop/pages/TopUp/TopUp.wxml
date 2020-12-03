@@ -1,0 +1,5 @@
+<!--pages/TopUp/TopUp.wxml-->
+<view  >
+  <image class="PicTopUp" src="../../PIC/QQ图片20201203141114.jpg">
+  </image>
+</view>

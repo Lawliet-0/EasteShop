@@ -1,0 +1,14 @@
+<!--pages/Product/Product.wxml-->
+<van-search
+  value="{{ value }}"
+  shape="round"
+  background="#4fc08d"
+  placeholder="请输入搜索关键词"
+  bind:change="onChange"
+  bind:search="onSearch"
+/>
+<view>
+<button id='003' bindtap="bindViewTap">示例商品1</button>
+<button id='004' bindtap="bindViewTap">示例商品2</button>
+<button id='005' bindtap="bindViewTap">示例商品3</button>
+</view>

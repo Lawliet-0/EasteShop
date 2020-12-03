@@ -1,0 +1,16 @@
+/* pages/UserInfo/UserInfo.wxss */
+.bg{
+  height: 100vh;
+  background-image: url('https://img.woyaogexing.com/gexing/fzltupian/20130924/4818b56a7861152984c3c3cf58389ed2.jpg');
+}
+.UserInfo{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.list{
+  flex-grow: 1;
+}
+.font{
+  font-weight: bold; 
+}

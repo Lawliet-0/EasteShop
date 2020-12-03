@@ -1,0 +1,14 @@
+<!--pages/UserInfo/UserInfo.wxml-->
+<view class="bg">
+<block wx:for="{{UserInfo}}" wx:key="item" wx:for-index="index">
+<view style="margin-top:20rpx"><text class="font">第{{index+1}}条记录</text></view>
+<view class="UserInfo">
+  <view class="list"><text class="font">商品名称:</text>{{item.UPNAME}}</view>
+  <view class="list"><text class="font">用户名称:</text>{{item.UNAME}}</view>
+  <view class="list"><text class="font">商品价格:</text>{{item.UPRICE}}</view>
+  <view class="list"><text class="font">已经购买数量:</text>{{item.UNUM}}</view>
+</view>
+
+</block>
+<view style="margin-top:40rpx"><text class="font">当前用户余额:</text>{{BALANCE}}</view>
+</view>

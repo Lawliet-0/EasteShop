@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  
+  <button bindtap="Login">登录</button>
+  <button style="margin-top:50rpx" bindtap="FindCart">已购买</button>
+</view>

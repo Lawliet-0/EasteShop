@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/Product/Product",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/ProductDetail/ProductDetail",
+    "miniprogram_npm/vant-weapp/button/index",
+    "pages/UserInfo/UserInfo",
+    "pages/TopUp/TopUp"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "东方商城",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "tabBar": {
+    "list": [
+      { "selectedIconPath":"PIC/Product.png",
+        "iconPath":"PIC/Product.png",
+        "pagePath": "pages/Product/Product",
+        "text": "商品"
+      },
+      { "selectedIconPath":"PIC/UserInfo.png",
+        "iconPath":"PIC/UserInfo.png",
+        "pagePath": "pages/index/index",
+        "text": "个人信息"
+      }
+      ,
+      { "selectedIconPath":"PIC/TopUp.png",
+        "iconPath":"PIC/TopUp.png",
+        "pagePath": "pages/TopUp/TopUp",
+        "text": "充值"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

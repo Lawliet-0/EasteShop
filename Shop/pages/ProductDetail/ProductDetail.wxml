@@ -1,0 +1,10 @@
+<!--pages/ProductDetail/ProductDetail.wxml-->
+<view class="bg">
+  <view>
+<view><text class="font">商品编号：</text>{{pno}}</view>
+<view><text class="font">商品名称：</text>{{name}}</view>
+<view><text class="font">商品价格：</text>{{price}}</view>
+<view><text class="font">商品库存：</text>{{num}}</view>
+<view><text class="font">当前用户：</text>{{uname}}</view>
+<view style="margin-top:220rpx"><button bindtap="addfun">立即购买</button></view></view>
+</view>
